@@ -134,8 +134,7 @@ fun DropdownMenuBox(
         }
     }
 }
-
-fun convertTemperature(value: Double, from: String, to: String): Double {
+/** fun convertTemperature(value: Double, from: String, to: String): Double {
     val celsius = when (from) {
         "Celsius" -> value
         "Fahrenheit" -> (value - 32) * 5 / 9
@@ -150,7 +149,9 @@ fun convertTemperature(value: Double, from: String, to: String): Double {
         else -> celsius
     }
 }
+**/
 
+/**
 fun convertLength(value: Double, from: String, to: String): Double? {
     val meters = when (from) {
         "Meters" -> value
@@ -168,4 +169,4 @@ fun convertLength(value: Double, from: String, to: String): Double? {
         else -> null
     }
 }
-
+**/
